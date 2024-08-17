@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Recoleta;
+  src: url(./Fonts/Recoleta/Recoleta-RegularDEMO.otf);
+}
+@font-face {
+  font-family: Noto-sans;
+  src: url(./Fonts/Noto_Sans/static/NotoSans-Light.ttf);
+}
+nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #163a24;
+}
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.nav-link button {
+  background-color: #198c36;
+  border: 1px solid transparent;
+  border-radius: 160px;
+  width: 140px;
+  height: 52px;
+}
+.first-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 540px;
+  background-color: #163a24;
+}
+.first-text {
+  width: 491.66px;
+  height: 294px;
+  margin-left: 50px;
+}
+.first-text h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  font-family: Recoleta;
+}
+
+.first-text h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Noto-sans;
+  width: 450px;
+  margin-top: 30px;
+}
+.first-img {
+  margin-top: 30px;
+  width: 738px;
+  height: 600px;
+}
+.second-page {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.second-text {
+  width: 393.33px;
+  height: 200px;
+  top: 154.77px;
+  left: 688.33px;
+  margin-left: 50px;
+}
+.second-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  font-family: Recoleta;
+  color: #163a24;
+}
+.second-text h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  font-family: Noto-sans;
+  margin-top: 40px;
+}
+
+.third-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.third-text {
+  margin-right: 50px;
+}
+.third-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  font-family: Recoleta;
+  width: 400px;
+}
+.third-text h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  font-family: Noto-sans;
+  width: 350px;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  align-items: center;
+  margin: 30px auto;
+  margin-top: 50px;
+}
+.partners h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Recoleta;
+  color: #163a24;
+}
+
+.partners-icon img {
+  margin: 0 30px;
+}
+
+.fourth-page {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #163a24;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-page h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: white;
+  font-family: Recoleta;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.new-section-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-section-item div {
+  margin: 30px 50px;
+  color: white;
+}
+
+.fifth-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-color: #f2efe6;
+}
+
+.fifth-page h1 {
+  width: 700px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  margin-top: 30px;
+  color: #163a24;
+  font-family: Recoleta;
+}
+
+.fifth-page h2 {
+  width: 700px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin: 30px auto;
+  font-family: Noto-sans;
+  color: #163a24;
+}
+
+.sixth-page {
+  width: 100%;
+  height: 600px;
+}
+.sixth-small {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  padding: 40px 0px;
+}
+
+.sixth-text {
+  width: 400px;
+  height: 250px;
+  margin-right: 50px;
+}
+.sixth-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  font-family: Recoleta;
+  color: #163a24;
+}
+
+.sixth-text h2 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  font-family: Noto-sans;
+  color: #163a24;
+}
+.seventh-page {
+  width: 100%;
+  height: 600px;
+}
+.seventh-text {
+  text-align: center;
+  align-items: center;
+}
+.seventh-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  font-family: Recoleta;
+  color: #163a24;
+}
+.seventh-text h2 {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #163a24;
+}
+.card-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.card-1 {
+  width: 353px;
+  height: 393px;
+  background-color: #fbfaf7;
+  box-shadow: 5px 5px 20px 0px #e9e4d5;
+  margin: 0px 10px;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+.card-1 p {
+  font-family: Recoleta;
+  color: #163a24;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31.5px;
+  text-align: left;
+  width: 160px;
+  margin: 30px 0;
+}
+
+.card-1 ul li {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #163a24;
+}
+
+.card-2 {
+  width: 353px;
+  height: 430px;
+  background-color: #fbfaf7;
+  box-shadow: 5px 5px 20px 0px #e9e4d5;
+  margin: 0px 10px;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+.card-2 p {
+  font-family: Recoleta;
+  color: #163a24;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31.5px;
+  text-align: left;
+  width: 285px;
+  margin: 30px 0;
+}
+
+.card-2 ul li {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #163a24;
+}
+.card-3 {
+  width: 353px;
+  height: 393px;
+  background-color: #fbfaf7;
+  box-shadow: 5px 5px 20px 0px #e9e4d5;
+  margin: 0px 10px;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+.card-3 p {
+  font-family: Recoleta;
+  color: #163a24;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31.5px;
+  text-align: left;
+  width: 301px;
+  margin: 30px 0;
+}
+
+.card-3 ul li {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #163a24;
+}
+.eight-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-color: #f2efe6;
+}
+.eight-page h1 {
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  margin: 30px 0;
+  font-family: Recoleta;
+  color: #163a24;
+}
+.eight-page h2 {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #163a24;
+}
+.guide-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.guide-line div {
+  width: 250px;
+  height: 140;
+}
+
+.guide-line h1 {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+.guide-line h2 {
+  font-family: Recoleta;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31.5px;
+  text-align: center;
+}
+.eight-page button {
+  width: 240px;
+  height: 50px;
+  background-color: #198c36;
+  border-radius: 160px;
+  color: white;
+  border: 1px solid transparent;
+  margin-top: 40px;
+}
+.nineth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+.nineth-text {
+  width: 400px;
+  height: 250px;
+}
+.nineth-text h1 {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #163a24;
+  font-family: Recoleta;
+}
+.nineth-text h2 {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #163a24;
+}
+.nineth-text button {
+  width: 190px;
+  height: 50px;
+  border-radius: 160px;
+  background-color: #198c36;
+  border: 1px solid transparent;
+  color: white;
+  margin-top: 40px;
+}
+.ten-page {
+  width: 100%;
+  height: 450px;
+  background-color: #163a24;
+}
+.ten-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.ten-text h1 {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  margin-top: 100px;
+}
+.ten-text h2 {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin: 40px 0;
+}
+.ten-text button {
+  width: 260px;
+  height: 50px;
+  border-radius: 160px;
+  background-color: #fab5a0;
+  color: #163a24;
+  border: 1px solid transparent;
+}
+.ten-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: -257px;
+}
+.eleven-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f2efe6;
+  width: 100%;
+  height: 300px;
+}
+.eleven-text-left {
+  width: 590px;
+  height: 119px;
+}
+.eleven-text-left h1 {
+  width: 342px;
+  height: 54px;
+  top: -6.2px;
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #163a24;
+}
+.eleven-text-left h2 {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #163a24;
+  margin-top: 30px;
+}
+
+.eleven-reg-page {
+  width: 590px;
+  height: 120px;
+  left: 590px;
+}
+.eleven-reg-page form input {
+  width: 450px;
+  height: 54px;
+  border-radius: 160px;
+  border: none;
+}
+.button {
+  width: 100px;
+  height: 52px;
+  border: 1px solid green;
+  border-radius: 160px;
+  background-color: #198c36;
+}
